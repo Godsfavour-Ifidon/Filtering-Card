@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 15px;
+}
+
+.filter-buttons-wrapper {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0px;
+}
+
+.filter-buttons-wrapper button {
+  padding: 12px 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(255, 157, 0);
+}
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.content-wrapper .card {
+  width: 32%;
+  font-size: 1.6rem;
+  color: white;
+  padding: 30px;
+  background-color: rgb(15, 207, 143);
+}
+
+.hide {
+  display: none;
+}
